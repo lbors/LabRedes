@@ -70,7 +70,7 @@ When expanding a topology:
 * For each interface:
 
   * Interface status is displayed.
-  * Right-click → **"Open with Wireshark"** (requires the [Edgeshark](../Edgeshark) plugin installed).
+  * Right-click → **"Open with Wireshark"** (requires the [Edgeshark](../Edgeshark/) plugin installed).
 
 ---
 

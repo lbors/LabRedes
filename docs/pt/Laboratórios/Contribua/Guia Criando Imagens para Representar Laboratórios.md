@@ -8,7 +8,7 @@ Este guia ensina como criar imagens representando topologias de rede para os lab
 
 Na raiz do repositório `docs/Templates`, você encontrará um template do [**Draw.io**](http://draw.io/). que pode vê-lo abaixo Abra o arquivo e verá que ele já contém todos os componentes necessários para criar topologias de rede, incluindo:
 
-![Template do Draw.io](../../img/Template_redes_abertas.svg)
+![Template do Draw.io](/img/Template_redes_abertas.svg)
 
 - **Cards de Aplicações**: Representam ativos ou protocolos como **Grafana** e **OpenConfig**.
 - **Componentes de Rede**: Ícones de **roteadores**, **switches** e **servidores**.

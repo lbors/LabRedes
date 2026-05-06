@@ -91,7 +91,7 @@ RUN pip install -r /opt/netbox/plugin_requirements.txt
 ### :material-docker: 2.4 docker-compose.override.yml
 Como o nome implica, esse arquivo contaim as configurações que vão sobrescrever o `docker-compose.yml`.
 
-Caso você ainda não tenha configurado a rede `br-lab`. Acesse: [Configurando a Rede Docker](../../../../Laboratórios/Juniper/vJunos/Lab%20Descoberta/index.md/#31-configurando-a-rede-docker)
+Caso você ainda não tenha configurado a rede `br-lab`. Acesse: [Configurando a Rede Docker](../../../../Laboratórios/Juniper/vJunos/Descoberta/index.md/#31-configurando-a-rede-docker)
 
 1. Crie o arquivo e acesse com um editor:
 ```bash
@@ -225,7 +225,7 @@ Acesse seu Netbox e siga as instruções abaixo.
 Pronto! agora temos o Plataform Config criado para acesso aos nossos dispositivos! 
 
 ### :fontawesome-solid-gears: 4.2 Configurando um Dispositivo
-Para testarmos o plugin do Napalm, precisamos de dispositivos para consulta, para isso, vamos usar o laboratório de Descoberta [Mais informações](../../../../Laboratórios/Juniper/vJunos/Lab%20Descoberta/index.md). Logo, adicionar pelo menos um dispositivo ao Netbox.
+Para testarmos o plugin do Napalm, precisamos de dispositivos para consulta, para isso, vamos usar o laboratório de Descoberta [Mais informações](../../../../Laboratórios/Juniper/vJunos/Descoberta/index.md). Logo, adicionar pelo menos um dispositivo ao Netbox.
 
 #### :material-router-wireless: 4.2.1 Adicionando os Roteadores
 1. Clone o respositório do laboratório:
@@ -355,7 +355,7 @@ A aba Status, habilitada por meio da integração do NetBox com o plugin NAPALM,
 
     - `Temperature, Fans, Power (PSUs)`: Status dos sensores e fontes de energia (caso o equipamento forneça esses dados)
 
-![Imagem da aba Status](../../../../../img/netbox_imgs/napalmStatusPage.png)
+![Imagem da aba Status](/img/netbox_imgs/napalmStatusPage.png)
 
 :simple-target: **Finalidade**: 
 
@@ -370,7 +370,7 @@ Esta funcionalidade exibe os vizinhos de camada 2 detectados por meio do protoco
 
 - Caso uma interface exista no dispositivo real, mas não tenha sido criada no NetBox, os vizinhos descobertos por ela não serão exibidos.
 
-![Imagem da aba LLDP Neighbors](../../../../../img/netbox_imgs/napalmLldpNeighborsPage.png)
+![Imagem da aba LLDP Neighbors](/img/netbox_imgs/napalmLldpNeighborsPage.png)
 
 :simple-target: **Finalidade**:
 
@@ -387,7 +387,7 @@ A aba Config, permite a visualização direta das configurações do dispositivo
 
 - `Candidate Config` (quando suportada pelo sistema operacional): Configuração em edição que ainda não foi aplicada. Presente em equipamentos que trabalham com staging de configurações (ex: Juniper).
 
-![Imagem da aba Config](../../../../../img/netbox_imgs/napalmConfigPage.png)
+![Imagem da aba Config](/img/netbox_imgs/napalmConfigPage.png)
 
 :simple-target: **Finalidade**:
 

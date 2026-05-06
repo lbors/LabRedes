@@ -8,7 +8,7 @@ This lab simulates a network with 3 routers in a ring topology, configured using
 
 The topology consists of three routers (PB, PE, JPA) connected in a ring. Each router is configured with network interfaces and IP addresses, as well as OSPF protocols for routing and SNMP for monitoring, as we can see in the following image.
 
-![Topology.png](../../../../../../../img/labs_imgs/Topologia_ospf_lab.png)
+![Topology.png](/img/labs_imgs/Topologia_ospf_lab.png)
 
 The routers are configured with the following technologies:
 

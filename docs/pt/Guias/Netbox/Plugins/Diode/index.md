@@ -28,5 +28,5 @@ O Diode é composto por três componentes principais, que trabalham em conjunto 
 ## :fontawesome-solid-building-columns: **2. Arquitetura**
 Para facilitar a compreensão do funcionamento do Diode, o diagrama abaixo ilustra a arquitetura dos seus principais componentes e como eles se comunicam entre si:
 
-[foto do diagrama](../../../../../img/netbox_imgs/diodeDiagram.svg)
+[foto do diagrama](/img/netbox_imgs/diodeDiagram.svg)
 

@@ -28,4 +28,4 @@ Diode is composed of three main components, which work together to perform autom
 ## :fontawesome-solid-building-columns: **2. Architecture**
 To facilitate understanding of how Diode works, the diagram below illustrates the architecture of its main components and how they communicate with each other:
 
-[foto do diagrama](../../../../../img/netbox_imgs/diodeDiagram.svg)
+[foto do diagrama](/img/netbox_imgs/diodeDiagram.svg)

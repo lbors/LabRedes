@@ -12,13 +12,13 @@ Este laboratório simula uma rede com 3 roteadores configurados com OSPF e SNMP,
 
 O objetivo deste laboratório é demonstrar, de forma prática, o processo de importação automatizada de dispositivos de rede e suas respectivas configurações para o Netbox, utilizando o diodo-plugin, o diode-server e o orb-agent.
 
-![Topologia.svg](../../../../../../../img/labs_imgs/Diagrama_fluxo_diode.svg)
+![Topologia.svg](/img/labs_imgs/Diagrama_fluxo_diode.svg)
 
 
 ### :material-lan: 1.2 **Topologia do Lab**
 Abaixo a topologia em formato imagem, representando os roteadores, servidores e suas conexões.
 
-![Topologia.svg](../../../../../../../img/labs_imgs/Topologia_discovery_lab_diode.svg)
+![Topologia.svg](/img/labs_imgs/Topologia_discovery_lab_diode.svg)
 
 Os roteadores estão configurados com as seguintes tecnologias:
 
@@ -216,7 +216,7 @@ RUN /usr/local/bin/uv pip install -r /opt/netbox/plugin_requirements.txt
 #### :material-docker: **5.3.4. docker-compose.override.yml**
 Como o nome implica, esse arquivo contaim as configurações que vão sobrescrever o `docker-compose.yml`.
 
-Caso você ainda não tenha configurado a rede `br-lab`. Acesse: [Configurando a Rede Docker](../../../../Laboratórios/Juniper/vJunos/Lab%20Descoberta/index.md/#31-configurando-a-rede-docker)
+Caso você ainda não tenha configurado a rede `br-lab`. Acesse: [Configurando a Rede Docker](../../../../Laboratórios/Juniper/vJunos/Descoberta/index.md/#31-configurando-a-rede-docker)
 
 1. Crie o arquivo e acesse com um editor:
 ```bash

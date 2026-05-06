@@ -90,7 +90,7 @@ RUN pip install -r /opt/netbox/plugin_requirements.txt
 ### :material-docker: 2.4 docker-compose.override.yml
 As the name implies, this file contains the settings that will override `docker-compose.yml`.
 
-If you have not yet configured the `br-lab` network, access: [Configuring the Docker Network](../../../../Laboratórios/Juniper/vJunos/Lab%20Descoberta/index.md/#31-configurando-a-rede-docker)
+If you have not yet configured the `br-lab` network, access: [Configuring the Docker Network](../../../../Laboratórios/Juniper/vJunos/Descoberta/index.md/#31-configurando-a-rede-docker)
 
 1. Create the file and access it with an editor:
 ```bash
@@ -224,7 +224,7 @@ Access your Netbox and follow the instructions below.
 Ready! now we have the Platform Config created for accessing our devices!
 
 ### :fontawesome-solid-gears: 4.2 Configuring a Device
-To test the Napalm plugin, we need devices to query, for that, we will use the Discovery laboratory [More information](../../../../Laboratórios/Juniper/vJunos/Lab%20Descoberta/index.md). Therefore, add at least one device to Netbox.
+To test the Napalm plugin, we need devices to query, for that, we will use the Discovery laboratory [More information](../../../../Laboratórios/Juniper/vJunos/Descoberta/index.md). Therefore, add at least one device to Netbox.
 
 #### :material-router-wireless: 4.2.1 Adding the Routers
 1. Clone the lab repository:
@@ -354,7 +354,7 @@ The Status tab, enabled through the integration of NetBox with the NAPALM plugin
 
     - `Temperature, Fans, Power (PSUs)`: Status of sensors and power supplies (if the equipment provides this data)
 
-![Status Tab Image](../../../../../img/netbox_imgs/napalmStatusPage.png)
+![Status Tab Image](/img/netbox_imgs/napalmStatusPage.png)
 
 :simple-target: **Purpose**:
 
@@ -369,7 +369,7 @@ This functionality displays the layer 2 neighbors detected through the LLDP (Lin
 
 - If an interface exists on the actual device but has not been created in NetBox, the neighbors discovered by it will not be displayed.
 
-![LLDP Neighbors Tab Image](../../../../../img/netbox_imgs/napalmLldpNeighborsPage.png)
+![LLDP Neighbors Tab Image](/img/netbox_imgs/napalmLldpNeighborsPage.png)
 
 :simple-target: **Purpose**:
 
@@ -386,7 +386,7 @@ The Config tab allows direct viewing of the network device's configurations, ext
 
 - `Candidate Config` (when supported by the operating system): Configuration being edited that has not yet been applied. Present on equipment that works with configuration staging (e.g., Juniper).
 
-![Config Tab Image](../../../../../img/netbox_imgs/napalmConfigPage.png)
+![Config Tab Image](/img/netbox_imgs/napalmConfigPage.png)
 
 :simple-target: **Purpose**:
 

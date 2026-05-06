@@ -34,10 +34,17 @@ Agora, instale o poetry, que é o gerenciador de dependências do projeto:
 pipx install poetry
 ```
 
-agora dentro da pasta do projeto, instale as dependências do projeto:
+!!! warning "Atenção"
+    Os passos a seguir, dependem da versão 3.12 do python. Portanto, caso esteja em uma versão anterior, atualize.
+    Caso tenha mais de uma versão instalada, informe ao poetry que deve usar a versão 3.12:
+    ```bash
+    poetry env use python3.12
+    ```
+
+Por fim, dentro da pasta do projeto, instale as dependências:
 
 ```bash
-poetry install
+poetry install --no-root
 ```
 
 pronto, agora você tem todas as dependências do projeto instaladas.

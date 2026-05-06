@@ -196,7 +196,7 @@ The import of CSV files must follow the established numbering and contain the in
 1. **Log in as superuser**: Access NetBox with admin credentials.
 2. **Find the import option**: Check the section related to the data you want to import, and look for an import **icon** as we see in Figure 1 below:
 
-    ![**Figure 1**: By clicking the import icon, you can upload the CSV file.](../../../img/netbox_imgs/import.png)
+    ![**Figure 1**: By clicking the import icon, you can upload the CSV file.](/img/netbox_imgs/import.png)
     **Figure 1**: By clicking the import icon, you can upload the CSV file.
 
 3. **Select the CSV file**: Upload the CSV file with the prepared data, each CSV must contain the fields as described in Subsection 3.1.
@@ -213,17 +213,17 @@ Then edit the `side*` and `interface*` information
 
     **Note**: The steps must be done for every existing Circuit ID.
 
-![**Figure 2**: click on the circuit (arrow on the left), then select the Circuirt ID (detached and indicated with the arrow) to perform the configuration.](../../../img/netbox_imgs/circuitID.png)
+![**Figure 2**: click on the circuit (arrow on the left), then select the Circuirt ID (detached and indicated with the arrow) to perform the configuration.](/img/netbox_imgs/circuitID.png)
 **Figure 2**: click on the circuit (arrow on the left), then select the Circuirt ID (detached and indicated with the arrow) to perform the configuration.
 
 - After clicking on one of the circuits, the circuit settings are similar to that presented in Figure 3. The terminations must be edited by clicking on the `Edit` icon as highlighted in the image below. When you click on the icon, Netbox forwards to the Cables part in Connections, as shown in Figure 4.
 
-![Figure 3: screen of a Circuit ID. The editions of each Temination must be carried out by clicking on `Edit` (highlighted with the arrow).](../../../img/netbox_imgs/circuitEdit.png)
+![Figure 3: screen of a Circuit ID. The editions of each Temination must be carried out by clicking on `Edit` (highlighted with the arrow).](/img/netbox_imgs/circuitEdit.png)
 **Figure 3:** screen of a Circuit ID. The editions of each Temination must be carried out by clicking on `Edit` (highlighted with the arrow).
 
 - Figure 4 presents the creation of the connection cables, the numbering of the cables follows only the creation order. The `Side*` and `Interface*` items must be filled in to complete the configuration of step 7.
 
-![Figure 4: connection cable configuration screen for the connection between devices.](../../../img/netbox_imgs/circuitCable.png)
+![Figure 4: connection cable configuration screen for the connection between devices.](/img/netbox_imgs/circuitCable.png)
 **Figure 4:** connection cable configuration screen for the connection between devices.
 
 <aside>
