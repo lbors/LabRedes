@@ -3,7 +3,7 @@
 The Diode Plugin is an essential component to enable automated data ingestion into NetBox. It provides direct integration with the NetBox ORM and manages API keys, allowing the Diode server to send structured data securely and validated. With this plugin, NetBox receives real-time inventory updates, facilitating the discovery, documentation, and continuous synchronization of the network infrastructure.
 
 ## :simple-git: **Plugin Repository**
-Copy the link below or click to access the [Github Repository](https://github.com/netboxlabs/diode-netbox-plugin)
+Copy the link below or click to access the <a target="_blank" href="https://github.com/netboxlabs/diode-netbox-plugin">Github Repository</a>
 
 ```
 https://github.com/netboxlabs/diode-netbox-plugin
@@ -83,7 +83,7 @@ RUN pip install -r /opt/netbox/plugin_requirements.txt
 ### :material-docker: **2.4. docker-compose.override.yml**
 As the name implies, this file contains the settings that will override `docker-compose.yml`.
 
-If you have not yet configured the `br-lab` network, access: [Configuring the Docker Network](../../../../Laboratórios/Juniper/vJunos/Lab%20Descoberta/index.md/#31-configurando-a-rede-docker)
+If you have not yet configured the `br-lab` network, access: [Configuring the Docker Network](../../../../Laboratórios/Juniper/vJunos/Descoberta/index.md/#41-configuring-the-docker-network)
 
 1. Create the file and access it with an editor:
 ```bash

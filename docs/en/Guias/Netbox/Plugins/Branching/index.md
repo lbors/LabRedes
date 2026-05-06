@@ -3,7 +3,7 @@
 The Branching plugin for NetBox is a solution that enables the creation of branches of the data stored in the system, allowing different teams or work environments to make changes, test, and validate without directly impacting the main database. With it, NetBox gains flexibility to manage versioning, experimentation, and collaboration scenarios, facilitating configuration comparison, change control, and the consolidation of updates in the documented infrastructure.
 
 ## :simple-git: Plugin Repository
-Copy the link below or click to access the [Github Repository](https://github.com/netboxlabs/netbox-branching)
+Copy the link below or click to access the <a target="_blank" href="https://github.com/netboxlabs/netbox-branching">Github Repository</a>
 
 ```
 https://github.com/netboxlabs/netbox-branching
@@ -85,7 +85,7 @@ COPY ./configuration/local_settings.py /opt/netbox/netbox/netbox/local_settings.
 ### :material-docker: 2.4 docker-compose.override.yml
 As the name implies, this file contains the configurations that will override `docker-compose.yml`.
 
-If you haven't configured the `br-lab` network yet. Access: [Configuring the Docker Network](../../../../Laboratórios/Juniper/vJunos/Lab%20Descoberta/index.md/#31-configurando-a-rede-docker)
+If you haven't configured the `br-lab` network yet. Access: [Configuring the Docker Network](../../../../Laboratórios/Juniper/vJunos/Descoberta/index.md/#41-configuring-the-docker-network)
 
 1. Create the file and access it with an editor:
 ```bash

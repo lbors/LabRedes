@@ -50,7 +50,7 @@ Para mudar a versão:
   ```yaml
   image: netboxcommunity/netbox:<versão>
   ```
-* Consulte as versões compatíveis em: [Releases Netbox Docker](https://github.com/netbox-community/netbox-docker/releases)
+* Consulte as versões compatíveis em: <a target="_blank" href="https://github.com/netbox-community/netbox-docker/releases">Releases Netbox Docker</a>
 
 > **Atenção:** Alterações entre versões muito distantes podem exigir ajustes no banco de dados ou configurações.
 
@@ -104,7 +104,7 @@ Siga as instruções para definir **usuário, e-mail e senha**.
 
 ### 1.8 Acessar a interface web
 
-* URL local: [http://localhost:8000](http://localhost:8000)
+* URL local: <a target="_blank" href="http://localhost:8000">http://localhost:8000</a>
 * De outro host: `http://<IP_DO_SERVIDOR>:8000`
 
 > Substitua a porta se tiver alterado no passo 5.
@@ -120,7 +120,7 @@ Siga as instruções para definir **usuário, e-mail e senha**.
 
 ## 2. Acesso
 
-Após concluir a instalação do NetBox no Docker, você pode acessá-lo via navegador da web. Por padrão, o NetBox estará disponível localmente em [http://localhost:8000/](http://localhost:8000/). No entanto, se você deseja acessar o NetBox de forma segura através de um túnel SSH, siga as etapas abaixo:
+Após concluir a instalação do NetBox no Docker, você pode acessá-lo via navegador da web. Por padrão, o NetBox estará disponível localmente em <a target="_blank" href="http://localhost:8000/">http://localhost:8000/</a>. No entanto, se você deseja acessar o NetBox de forma segura através de um túnel SSH, siga as etapas abaixo:
 
 ### 2.1 Acesso via tunel ssh
 

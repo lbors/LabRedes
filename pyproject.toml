@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "redes-abertas-docs"
+name = "LabRedes"
 version = "0.1.0"
 description = ""
 authors = ["kaio Guilherme  <kaioguilherme444@gmail.com>"]
