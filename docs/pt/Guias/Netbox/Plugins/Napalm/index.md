@@ -3,7 +3,7 @@
 O plugin Napalm para o NetBox permite integrar funcionalidades de coleta em tempo real diretamente dos dispositivos de rede configurados no sistema. Com ele, é possível obter informações atualizadas como status operacional, vizinhanças (LLDP/CDP) e configurações dos equipamentos, enriquecendo a visualização e gestão dos ativos no NetBox. Essa integração torna a ferramenta mais dinâmica, aproximando a documentação da realidade atual da rede.
 
 ## :simple-git: Repositório do Plugin
-Copie o link abaixo ou clique a seguir para acessar o [Repositório do Github](https://github.com/netbox-community/netbox-napalm-plugin)
+Copie o link abaixo ou clique a seguir para acessar o <a target="_blank" href="https://github.com/netbox-community/netbox-napalm-plugin">Repositório do Github</a>
 
 ```
 https://github.com/netbox-community/netbox-napalm-plugin
@@ -91,7 +91,7 @@ RUN pip install -r /opt/netbox/plugin_requirements.txt
 ### :material-docker: 2.4 docker-compose.override.yml
 Como o nome implica, esse arquivo contaim as configurações que vão sobrescrever o `docker-compose.yml`.
 
-Caso você ainda não tenha configurado a rede `br-lab`. Acesse: [Configurando a Rede Docker](../../../../Laboratórios/Juniper/vJunos/Lab%20Descoberta/index.md/#31-configurando-a-rede-docker)
+Caso você ainda não tenha configurado a rede `br-lab`. Acesse: [Configurando a Rede Docker](../../../../Laboratórios/Juniper/vJunos/Descoberta/index.md/#41-configurando-a-rede-docker)
 
 1. Crie o arquivo e acesse com um editor:
 ```bash
@@ -218,14 +218,14 @@ Acesse seu Netbox e siga as instruções abaixo.
 1. No menu lateral, vá em **Plugin** → **Napalm**.
 2. Clique no botão **Adicionar**.
 3. `Plataform`: Selecione uma plataform (ex: **junos**)
-4. `NAPALM driver`: Aqui é o nome do driver usado pelo Napalm para coletar os dados dos dispositivos. Para ver os drivers disponíveis, acesse [Supported Devices](https://napalm.readthedocs.io/en/latest/support/#general-support-matrix). Neste caso vamos usar o **junos**.
-5. `NAPALM arguments`(Opcional): Argumentos passados quando inicializa o NAPALM driver. Argumentos em: [Optional Arguments](https://napalm.readthedocs.io/en/latest/support/#optional-arguments). Em nosso caso, não iremos preencher.
+4. `NAPALM driver`: Aqui é o nome do driver usado pelo Napalm para coletar os dados dos dispositivos. Para ver os drivers disponíveis, acesse <a target="_blank" href="https://napalm.readthedocs.io/en/latest/support/#general-support-matrix">Supported Devices</a>. Neste caso vamos usar o **junos**.
+5. `NAPALM arguments`(Opcional): Argumentos passados quando inicializa o NAPALM driver. Argumentos em: <a target="_blank" href="https://napalm.readthedocs.io/en/latest/support/#optional-arguments">Optional Arguments</a>. Em nosso caso, não iremos preencher.
 6. Clique em **Criar**.
 
 Pronto! agora temos o Plataform Config criado para acesso aos nossos dispositivos! 
 
 ### :fontawesome-solid-gears: 4.2 Configurando um Dispositivo
-Para testarmos o plugin do Napalm, precisamos de dispositivos para consulta, para isso, vamos usar o laboratório de Descoberta [Mais informações](../../../../Laboratórios/Juniper/vJunos/Lab%20Descoberta/index.md). Logo, adicionar pelo menos um dispositivo ao Netbox.
+Para testarmos o plugin do Napalm, precisamos de dispositivos para consulta, para isso, vamos usar o laboratório de Descoberta [Mais informações](../../../../Laboratórios/Juniper/vJunos/Descoberta/index.md). Logo, adicionar pelo menos um dispositivo ao Netbox.
 
 #### :material-router-wireless: 4.2.1 Adicionando os Roteadores
 1. Clone o respositório do laboratório:
